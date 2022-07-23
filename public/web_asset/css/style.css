@@ -1,0 +1,85 @@
+body {
+    font-size: 15px;
+    color: #4f5468 !important;
+    font-family: "Poppins", sans-serif;
+}
+
+.fs-1 {
+    font-size: 18px !important;
+}
+
+.fs-2 {
+    font-size: 16px !important;
+}
+
+.header {
+    height: 60vh;
+    background-image: linear-gradient(#ffcd276c, rgba(0, 0, 0, 0.7)),
+        url("/web_asset/images/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.header .nav .btn {
+    border-radius: 30px;
+}
+
+.nav .nav-item-group a {
+    margin-left: 20px;
+}
+
+.cart-container {
+    position: relative;
+}
+
+.cart-container .cart-no {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+/* utility */
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: #ffcd27 !important;
+}
+
+.text-primary {
+    color: #ffcd27 !important;
+}
+
+.btn {
+    text-transform: none !important;
+    font-size: 13px !important;
+    font-weight: 400;
+}
+
+.dot::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: red;
+    top: 35px;
+    right: 15px;
+    border-radius: 50%;
+}
+
+.w-80 {
+    width: 80% !important;
+    margin: 0 auto;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+users
+=====
+
+admins
+======
+
+
+category
+========
+id slug name
+
+color
+=====
+id slug name
+
+brands
+======
+id slug name
+
+supplier
+========
+id name image description
+
+products
+========
+id category_id supplier_id name image discount_price sale_price total_qty like_count view_count
+
+product_reviews
+===============
+id user_id product_id rating review
+
+product add transaction
+=======================
+id supplier_id product_id total_qty
+
+product_orders
+==============
+id user_id product_id total_qty status('pending', 'cancel', 'order_complete')
+
+product_cart
+============
+id product_id user_id total_qty
